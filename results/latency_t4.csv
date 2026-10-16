@@ -1,0 +1,7 @@
+backend,precision,mode,mean_ms,median_ms,p90_ms,p99_ms,fps
+PyTorch 2.11,fp32,eager,19.559,19.546,19.928,20.353,51.1
+PyTorch 2.11,fp32,CUDA graph,19.980,20.013,20.345,20.513,50.0
+PyTorch 2.11,fp16 (autocast),eager,14.107,13.693,14.914,20.696,70.9
+PyTorch 2.11,fp16 (autocast),CUDA graph,7.440,7.464,7.496,7.584,134.4
+TensorRT 11.4,fp32,engine,11.199,,,,89.3
+ONNX Runtime 1.31 CUDA EP,fp32,io-binding,97.388,99.287,102.130,103.161,10.3
